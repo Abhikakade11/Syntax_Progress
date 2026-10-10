@@ -20,8 +20,8 @@
     pobj.no2=21;
 
     pobj.Display();
-    cout<<pobj.no1<<"\n";
-    cout<<pobj.no2<<"\n";
+    cout<<pobj.no1<<"\n";    //11
+    cout<<pobj.no2<<"\n";    //21
 
     return 0;
  }

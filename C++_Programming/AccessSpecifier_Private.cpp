@@ -1,5 +1,4 @@
 #include<iostream>
-
 using namespace std;
 #pragma pack(1)
 
@@ -8,9 +7,9 @@ class Demo
     public:
         int i;
         char ch;
-    private: 
+    private:
         float f;
-};
+}; 
 
 int main()
 {
@@ -19,6 +18,7 @@ int main()
     dobj.i=11;
     dobj.ch='A';
     dobj.f=3.14f;
+    
     cout<<dobj.i<<"\n";
     cout<<dobj.ch<<"\n";
     cout<<dobj.f<<"\n";

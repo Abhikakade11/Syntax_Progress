@@ -8,9 +8,9 @@ int main()
     printf("%d\n",p);               //Address of 1
     printf("%d\n",q);               //Address of 3
 
-     printf("%d\n",p+2);             //40
-      printf("%d\n",q-2);            //20
-       printf("%d\n",q-p);           //2
+    printf("%d\n",p+2);             //40
+    printf("%d\n",q-2);             //20
+    printf("%d\n",q-p);             //2
 
     return 0;
 }

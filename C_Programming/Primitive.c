@@ -6,11 +6,10 @@ int main()
     float f=11.21f;
     double d=11.112255;
 
-    printf("%c\n",ch);
-    printf("%d\n",i);
-    printf("%f\n",f);
-    printf("%lf\n",d);
-
+    printf("%c\n",ch);        //A
+    printf("%d\n",i);         //10
+    printf("%f\n",f);         //11.21
+    printf("%lf\n",d);        //11.112255
 
     return 0;
 }

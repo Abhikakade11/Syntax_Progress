@@ -9,14 +9,12 @@ union Demo
 
 int main()
 {
+    union Demo dobj;
 
-union Demo dobj;
+    dobj.i=65;
 
-dobj.i=65;
-
-printf("%d\n",dobj.i);
-printf("%c\n",dobj.ch);
-
+    printf("%d\n",dobj.i);
+    printf("%c\n",dobj.ch);
 
     return 0;
 }

@@ -5,8 +5,6 @@ int main()
     int *const p=&no;
     int i=21;
         
-
-
     printf("%d\n",*p);              //11
     printf("%d\n",&no);             //Address of no
     no++;

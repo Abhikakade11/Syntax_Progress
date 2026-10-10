@@ -8,14 +8,16 @@ union Demo
 
 int main()
 {
+    union Demo dobj;
 
-union Demo dobj;
+    dobj.f=11.0f;
+    dobj.i=21;
 
-dobj.f=11.0f;
+    printf("%f\n",dobj.f);    //11.0
+    printf("%d\n",dobj.i);    //21
 
-printf("%f\n",dobj.f);  
-printf("%d\n",dobj.i);       
+    //Union me 1 time par sirf 1 hi variable ki value store hoti hai 
+    // Aur sabko milkar 1 hi MEmory allocate hori hai
 
-return 0;
-
+    return 0;
 }

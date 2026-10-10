@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int arr[5]={10,20,30,40,50};
+    int arr[5]={010,20,30,40,5};
 
     printf("%d\n",arr[3]);          //40
     printf("%d\n",arr[4]);          //50

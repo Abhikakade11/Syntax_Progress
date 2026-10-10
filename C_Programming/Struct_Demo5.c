@@ -8,7 +8,9 @@ struct  Demo
     char ch = 'A';        //error
     float f = 90.99f;      //error
 
+    //Ham log structure ke andar value ko direct initialize nhi kar sakte 
 };
+
 int main ()
 {
     struct Demo dobj1;
@@ -28,7 +30,7 @@ int main ()
     dp->ch='B';
     dp->f=91.99f;
     printf("%d\n",dobj1.i);   //11
-     printf("%d\n",dp->i);     //21
+    printf("%d\n",dp->i);     //21
 
     return 0;
 }

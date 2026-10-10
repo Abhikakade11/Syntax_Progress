@@ -6,6 +6,7 @@ struct  Demo
     int i;
     float f;
 };
+
 int main ()
 {
     struct Demo arr[3];

@@ -7,8 +7,8 @@ struct  Demo
     float f;
     int *p;
 };
-int main ()
 
+int main ()
 {
    int x=11;
    struct Demo dobj;
@@ -18,7 +18,7 @@ int main ()
    dobj.p=&x;
 
    printf("%d\n",*(dobj.p));    //11
-   printf("%d\n",dobj.no);
+   printf("%d\n",dobj.no);      //21
     
    return 0;
 }

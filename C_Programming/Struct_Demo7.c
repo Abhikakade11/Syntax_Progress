@@ -6,6 +6,7 @@ struct  Demo
     int no;
     int arr[3];
 };
+
 int main ()
 {  
     struct Demo dobj;

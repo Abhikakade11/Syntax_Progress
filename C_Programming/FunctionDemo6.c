@@ -11,18 +11,16 @@ int Addition(int no1,int no2)
 int main()
 {
 
-int value1 =0, value2 =0, ans = 0 ;          
+    int value1=0, value2=0, ans=0;          
 
+    printf("Enter 1st Number :\n");
+    scanf("%d",&value1);
 
-printf("Enter 1st Number :\n");
-scanf("%d",&value1);
+    printf("Enter 2nd Number :\n");
+    scanf("%d",&value2);
 
-printf("Enter 2nd Number :\n");
-scanf("%d",&value2);
-
-ans = Addition(value1, value2);
-printf("Addition is :   %d\n",ans);
-
+    ans = Addition(value1, value2);
+    printf("Addition is :  %d\n",ans);
 
     return 0;
 }

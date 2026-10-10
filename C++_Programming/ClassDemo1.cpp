@@ -11,14 +11,12 @@
         {
             cout<<"Inside Display\n";
         }
-
-
  };
 
  int main ()
  {
     PPA pobj;
-    cout<<sizeof(pobj)<<"\n";
+    cout<<sizeof(pobj)<<"\n";        //8
 
     return 0;
  }

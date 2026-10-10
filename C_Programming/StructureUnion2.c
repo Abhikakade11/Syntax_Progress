@@ -8,14 +8,12 @@
     float f;
     double d;
 
-
 };
 
 int main()
 {
 
-printf("%d\n",sizeof(union Demo));    //8
-
+    printf("%d\n",sizeof(union Demo));    //8
 
     return 0;
 }

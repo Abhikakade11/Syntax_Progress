@@ -7,13 +7,13 @@
         int no1;
         int no2;
 
-        //Default Constructor
+    //Default Constructor
     PPA()
     {
         cout<<"Inside default Constructor\n";
     }
-    // Parameterised Constructor 
 
+    // Parameterised Constructor 
      PPA(int a,int b)
     {
         cout<<"Inside Parameterised Constructor\n";
@@ -28,13 +28,12 @@
     ~PPA()
     {
         cout<<"Inside Destructor\n";
-    }
-        
+    }  
  };
 
  int main ()
  {
-    PPA pobj1;              //Default
+    PPA pobj1;               //Default
     PPA pobj2(11,21);        //Parameterised
     PPA pobj3(pobj1);        //Copy 
 

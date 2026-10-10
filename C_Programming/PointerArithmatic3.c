@@ -10,12 +10,7 @@ int main()
     p=&(arr[1]);
     q=&(arr[3]);
 
-    printf("%d\n",(q-p));
-    
-
-
-
-
+    printf("%d\n",(q-p));       //2
 
    return 0;
 }
